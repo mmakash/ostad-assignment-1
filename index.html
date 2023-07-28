@@ -1,0 +1,20 @@
+<!-- problem 2 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even Number</title>
+</head>
+<body>
+    <h1>Even Number Printing From Array..</h1>
+    <script>
+        function evenNumber(arr){
+            return arr.filter(number => number % 2 === 0);
+        }
+        const numbers =  [12, 34, 45, 23, 6, 78, 54, 90];
+        const result = evenNumber(numbers);
+        document.write(result);
+    </script>
+</body>
+</html>
